@@ -9,7 +9,7 @@ import { User } from './user';
 })
 export class UserService {
 
-url = 'http://usersnodejsapp.herokuapp.com'; 
+url = 'https://usersnodejsapp.herokuapp.com'; 
    constructor(private http: HttpClient) { }  
   
   getAllUser(): Observable<any> {  
