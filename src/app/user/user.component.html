@@ -1,0 +1,14 @@
+<p>user works!</p>
+<table class="table" >  
+          <tr ngclass="btn-primary">  
+            <th class="tbl2">id</th>  
+            <th class="tbl2">name</th>  
+            <th class="tbl2">Email</th>    
+          </tr>  
+          <tr *ngFor="let user of allUsers | async">  
+            <td class="tbl2">{{user.id}}</td>  
+            <td class="tbl2">{{user.name}}</td>  
+            <td class="tbl2">{{user.email}}</td>  
+          </tr>  
+  
+        </table>  
